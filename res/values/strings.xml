@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SensorCheckActivity!</string>
+    <string name="app_name">SensorCheck</string>
+    <string name="orient">方位</string>
+    <string name="magnetic">地磁気</string>
+    <string name="accel">加速度(フィルタなし)</string>
+</resources>

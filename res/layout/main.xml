@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="6dp"
+    android:padding="3dp" 
+    android:background="#555555">
+	<TextView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="@string/orient"
+        android:background="#224444"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutOX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	
+	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="X"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textOrient"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutOY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	<TextView
+        android:layout_width="fill_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="Y"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+   	<TextView
+        android:id="@+id/textOrientY"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+	</LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayoutOZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+  	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="Z"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textOrientZ"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+    
+    </LinearLayout>
+
+	<TextView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="@string/magnetic"
+        android:background="#224444"
+        />
+
+	<LinearLayout
+        android:id="@+id/linearLayoutMX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="X"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+	<TextView
+        android:id="@+id/textMagnetic"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+	<LinearLayout
+        android:id="@+id/linearLayoutMY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="Y"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+	<TextView
+        android:id="@+id/textMagneticY"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+		<LinearLayout
+        android:id="@+id/linearLayoutMZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="Z"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+	<TextView
+        android:id="@+id/textMagneticZ"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+    
+    <TextView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="@string/accel"
+        android:background="#224444"
+        />
+
+	<LinearLayout
+        android:id="@+id/linearLayoutAX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="X"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+	<TextView
+        android:id="@+id/textAccel"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+	<LinearLayout
+        android:id="@+id/linearLayoutAY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="Y"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+	<TextView
+        android:id="@+id/textAccelY"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+		<LinearLayout
+        android:id="@+id/linearLayoutAZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<TextView
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp" 
+        android:text="Z"
+        android:background="#333333"
+        android:layout_weight="1"/>
+
+	<TextView
+        android:id="@+id/textAccelZ"
+        android:layout_width="match_parent"
+        android:width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+		<View
+		    android:id="@+id/view1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    />
+    
+</LinearLayout>
